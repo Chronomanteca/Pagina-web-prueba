@@ -1,0 +1,11 @@
+.resul {    
+    border: 2px solid gray;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    visibility: hidden;
+}
+
+#title {
+    color:blue;
+}

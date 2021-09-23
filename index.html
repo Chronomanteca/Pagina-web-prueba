@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farenheit a Celsius</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./conversor.js" async></script>
+</head>
+
+<body>    
+    <h3 id = "title">Hola</h3>
+     <form action="index.html" method ="GET" >Ingrese grados Celsius
+         <input type="number" id="gradosCelsius"  placeholder="Ingrese la temperatura">
+         <button type="button" id="btnCelsToFah" onclick="celsiusToFahrenheit(document.getElementById('gradosCelsius').value)">Convertir</button>         
+         <div id="resulFahrenheitBox" class="resul">
+             <p id="resulFahrenheit"></p>
+         </div>
+     </form>
+     
+</body>
+</html>
