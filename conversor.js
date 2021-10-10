@@ -3,19 +3,18 @@ let constanteConversion = 1.8;
 let constanteSuma = 32;
 
 let CtoF = (grados) => (grados*constanteConversion)+constanteSuma;
-let FtoC = (grados) => (grados-constanteSuma)*constanteMultiplicacion;
+let FtoC = (grados) => (grados-constanteSuma)*constanteConversion;
 
 
-document.getElementById('btnCelsToFah').get
 
 function celsiusToFahrenheit(grados){
     document.getElementById('resulFahrenheitBox').style.visibility = "visible"
     document.getElementById('resulFahrenheit').innerHTML = CtoF(grados);
 }
 
-function FahrenheitToCelsius(grados){
-    document.getElementById('resultCelsiusBox').style.visibility = "visible"
-    document.getElementById('reulsCelsius').innerHTML = FtoC(grados);
+function fahrenheitToCelsius(grados){
+    document.getElementById('resulCelsiusBox').style.visibility = "visible"
+    document.getElementById('resulCelsius').innerHTML = FtoC(grados);
 }
 
 

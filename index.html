@@ -14,16 +14,14 @@
      <form action="index.html" method ="GET" >Ingrese grados Celsius
          <input type="number" id="gradosCelsius"  placeholder="Ingrese la temperatura">
          <button type="button" id="btnCelsToFah" onclick="celsiusToFahrenheit(document.getElementById('gradosCelsius').value)">Convertir</button>         
-
          <div id="resulFahrenheitBox" class="resul">
              <p id="resulFahrenheit"></p>
-         </div>
-         
+         </div>         
      </form>
 
      <form action="index.html" method ="GET" >Ingrese grados Fahrenheit
         <input type="number" id="gradosFahrenheit"  placeholder="Ingrese la temperatura">
-        <button type="button" id="btnFahToCels" onclick="fahrenheitToCelsius(document.getElementById('gradosCelsius').value)">Convertir</button>         
+        <button type="button" id="btnFahToCels" onclick="fahrenheitToCelsius(document.getElementById('gradosFahrenheit').value)">Convertir</button>         
         <div id="resulCelsiusBox" class="resul">
             <p id="resulCelsius"></p>
         </div>
