@@ -1,0 +1,20 @@
+{
+  "name": "Pagina-web-prueba",
+  "version": "1.0.0",
+  "description": "TODO:",
+  "main": "conversor.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chronomanteca/Pagina-web-prueba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chronomanteca/Pagina-web-prueba/issues"
+  },
+  "homepage": "https://github.com/Chronomanteca/Pagina-web-prueba#readme"
+}

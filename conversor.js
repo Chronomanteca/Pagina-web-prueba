@@ -19,4 +19,6 @@ function fahrenheitToCelsius(grados){
 
 
 
- 
+exports.CtoF = CtoF;
+exports.FtoC = FtoC;
+
