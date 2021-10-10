@@ -12,6 +12,11 @@ function celsiusToFahrenheit(grados){
     document.getElementById('resulFahrenheit').innerHTML = CtoF(grados);
 }
 
+function FahrenheitToCelsius(grados){
+    document.getElementById('resultCelsiusBox').style.visibility = "visible"
+    document.getElementById('reulsCelsius').innerHTML = CtoF(grados);
+}
+
 
 
  
