@@ -18,6 +18,14 @@
              <p id="resulFahrenheit"></p>
          </div>
      </form>
+
+     <form action="index.html" method ="GET" >Ingrese grados Fahrenheit
+        <input type="number" id="gradosFahrenheit"  placeholder="Ingrese la temperatura">
+        <button type="button" id="btnFahToCels" onclick="fahrenheitToCelsius(document.getElementById('gradosCelsius').value)">Convertir</button>         
+        <div id="resulCelsiusBox" class="resul">
+            <p id="resulCelsius"></p>
+        </div>
+    </form>
      
 </body>
 </html>
