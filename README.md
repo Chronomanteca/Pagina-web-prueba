@@ -1,3 +1,7 @@
+![tests](https://github.com/Chronomanteca/Pagina-web-prueba/actions/workflows/main.yml/badge.svg)
+
+
+
 # Pagina-web-prueba
 
 
