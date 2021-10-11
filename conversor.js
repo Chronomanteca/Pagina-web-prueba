@@ -3,7 +3,7 @@ let constanteConversion = 1.8;
 let constanteSuma = 32;
 
 let CtoF = (grados) => (grados*constanteConversion)+constanteSuma;
-let FtoC = (grados) => (grados-constanteSuma)*constanteConversion;
+let FtoC = (grados) => (grados-constanteSuma)*(1/constanteConversion);
 
 
 

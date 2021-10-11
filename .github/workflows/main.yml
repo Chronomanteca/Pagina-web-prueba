@@ -1,19 +1,20 @@
-name: Tests
+name: Tests #Nombre de mi accion
 
+#me dice sobre que accion y ramas quiero realizar la accion
 on:
   push:
     branches:
       - main
 
+
+#definicion de los pasos de mi accion
 jobs:
-  run-tests:
-    runs-on: ubuntu-latest
+  run-tests: #nombre del trabajo
+    runs-on: ubuntu-latest #entorno sobre el que lo quiero ejecutar
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Jest Install
-        run: npm install jest
-      - name: Jest run
+      - name: Checkout #nombre del paso a ejecutar
+        uses: actions/checkout@v2 #accion predefinida de git para hacer checkout en la VM
+      - name: Jest Install #instalacion de jest en la vm
+        run: npm install jest 
+      - name: Jest run #Ejecucion de las pruebas
         run: npm test
